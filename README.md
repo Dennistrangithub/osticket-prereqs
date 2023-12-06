@@ -33,7 +33,7 @@
 </ul>
 
 <h2>Installation Steps</h2>
-<strong>Step 1: Creating the Virtual Environment</strong><br />
+<h3>Step 1: Setting up Azure/VM machines</h3>
 I initiated the project by setting up a Windows 10 Virtual Machine in Microsoft Azure. This involved:
 <ul>
     <li>Creating a new Resource Group in Azure for organized management.</li>
@@ -44,7 +44,7 @@ I initiated the project by setting up a Windows 10 Virtual Machine in Microsoft 
 </p>
 
 <p>
-<strong>Step 2: Preparing the System</strong><br />
+<h3>Step 2: Downloading Files for Installation/Configuring IIS</h3>
 The next step was preparing the VM for osTicket installation, which included:
 <ul>
     <li>Installation and configuration of Internet Information Services (IIS) for hosting the ticketing system.</li>
@@ -57,7 +57,7 @@ The next step was preparing the VM for osTicket installation, which included:
 </p>
 
 <p>
-<strong>Step 3: Installing osTicket</strong><br />
+<h3>Step 3: Installing osTicket</h3>
 Finally, I installed and configured osTicket on the VM:
 <ul>
     
