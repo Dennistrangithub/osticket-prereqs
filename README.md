@@ -90,8 +90,6 @@ The next step was preparing the VM for osTicket installation, which included:
     - Assign appropriate permissions to the ost-config.php file.
       
 
-https://github.com/Dennistrangithub/osticket-prereqs/assets/152820266/3ef16412-dc34-4729-9f8e-c193dacf483b
-
 
 <img src="https://github.com/Dennistrangithub/osticket-prereqs/assets/152820266/82fe575d-fdfa-47e5-8670-b77428b5ce0e"/>
 Installed PHP Manager for IIS
@@ -107,40 +105,36 @@ We install the VC_redist.x86.exe
 For this, we set up MySQL
 
 
- ## 1a. Changing PHPs:
-    
-<li>Open IIS as an Admin and register PHP.
-<li>Install osTicket v1.15.8 by extracting the "upload" folder to c:\inetpub\wwwroot and renaming it to "osTicket".
-<li>Enable necessary PHP extensions like php_imap.dll, php_intl.dll, and php_opcache.dll through the PHP Manager in IIS.
-<li>Assign appropriate permissions to the ost-config.php file.
-<img src="https://github.com/Dennistrangithub/osticket-prereqs/assets/152820266/1738be84-928c-420d-ab47-a72f7de45476"/>
-<img src=""/>
-<img src=""/>
-<img src=""/>
-<img src=""/>
 
+
+
+ ### 1a. Changing PHPs:
+
+<img src="https://github.com/Dennistrangithub/osticket-prereqs/assets/152820266/1738be84-928c-420d-ab47-a72f7de45476"/>
+    <li>Open IIS as an Admin and register PHP.
+<img src="https://github.com/Dennistrangithub/osticket-prereqs/assets/152820266/fbee1a5c-9fba-404c-9bb9-3b34ec4d1a48"/>
+<li>Install osTicket v1.15.8 by extracting the "upload" folder to c:\inetpub\wwwroot and renaming it to "osTicket".
+<img src="https://github.com/Dennistrangithub/osticket-prereqs/assets/152820266/b77a30f4-1b0f-44c4-80fc-8aeb691a1432"/>
+
+<img src="https://github.com/Dennistrangithub/osticket-prereqs/assets/152820266/ffa087b5-9550-4d29-b329-c24034a8c72e"/>
+<li>Enable necessary PHP extensions like php_imap.dll, php_intl.dll, and php_opcache.dll through the PHP Manager in IIS.
+<img src="https://github.com/Dennistrangithub/osticket-prereqs/assets/152820266/49490ad4-4167-41b6-aaf3-400ff50d674c"/>
+<li>Assign appropriate permissions to the ost-config.php file.
 
 2. **Set Up osTicket Database**:
     
     - Install HeidiSQL and create a new database session for osTicket.
     - Create a database named "osTicket" using the HeidiSQL interface.
     - Continue setting up osTicket in the browser by configuring the database with the created MySQL database details.
-<img src=""/>
-<img src=""/>
-<img src=""/>
-<img src=""/>
-<img src=""/>
+<img src="https://github.com/Dennistrangithub/osticket-prereqs/assets/152820266/c89a0c33-7cf6-4e78-bbf4-2b1da3ecec92"/>
+
 
 3. **Finalize Installation and Configuration**:
     
     - Once the osTicket installation is complete, access the help desk login page to ensure it's working.
-    - Perform clean-up tasks like deleting the setup folder and setting read-only permissions for the ost-config.php file.
-    - Configure roles, departments, teams, users, SLA, and help topics in the osTicket admin panel.
-<img src=""/>
-<img src=""/>
-<img src=""/>
-<img src=""/>
-<img src=""/>
+<img src="https://github.com/Dennistrangithub/osticket-prereqs/assets/152820266/1f4d63f2-3b51-4767-a79b-24d12a567b59"/>
+
+
 <ul>
     
 </ul>
