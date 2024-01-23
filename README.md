@@ -51,7 +51,7 @@ The next step was preparing the VM for osTicket installation, which included:
 <ul>
     <li>Installation and configuration of Internet Information Services (IIS) for hosting the ticketing system.</li>
     <li>Ensuring all necessary security features and updates were applied to the VM for a secure operating environment.</li>
-    <li>Downloaded any files nessessary for installation</li>
+    <li>Downloaded any files necessary for installation</li>
     <!-- Add other system preparation steps here -->
 </ul>
 
@@ -103,14 +103,17 @@ For this to happen we make a new folder within the main drive called "PHP", then
 <img src="https://github.com/Dennistrangithub/osticket-prereqs/assets/152820266/57678c5a-9078-42fb-9ad4-860587c47396"/>
 We install the VC_redist.x86.exe
 <img src="https://github.com/Dennistrangithub/osticket-prereqs/assets/152820266/3ef16412-dc34-4729-9f8e-c193dacf483b"/>
+</p> 
 For this, we set up MySQL
 
-1a. 
-    - Open IIS as an Admin and register PHP.
-    - Install osTicket v1.15.8 by extracting the "upload" folder to c:\inetpub\wwwroot and renaming it to "osTicket".
-    - Enable necessary PHP extensions like php_imap.dll, php_intl.dll, and php_opcache.dll through the PHP Manager in IIS.
-    - Assign appropriate permissions to the ost-config.php file.
-<img src=""/>
+
+ ## 1a. Changing PHPs:
+    
+<li>Open IIS as an Admin and register PHP.
+<li>Install osTicket v1.15.8 by extracting the "upload" folder to c:\inetpub\wwwroot and renaming it to "osTicket".
+<li>Enable necessary PHP extensions like php_imap.dll, php_intl.dll, and php_opcache.dll through the PHP Manager in IIS.
+<li>Assign appropriate permissions to the ost-config.php file.
+<img src="https://github.com/Dennistrangithub/osticket-prereqs/assets/152820266/1738be84-928c-420d-ab47-a72f7de45476"/>
 <img src=""/>
 <img src=""/>
 <img src=""/>
